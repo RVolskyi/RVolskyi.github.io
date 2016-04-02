@@ -1,0 +1,55 @@
+table {
+	border-collapse: collapse;
+	margin: 0px auto;
+	margin-top: 200px;
+	border: 8px solid white;
+	
+}
+
+td {
+	border: 6px solid black;
+}
+
+.yellow {
+	background-color: yellow;
+	width: 60px;
+	height: 30px;
+}
+
+.red {
+	background-color: orangered;
+	width: 150px
+}
+
+.blue {
+	background-color: blue;
+	height: 40px;
+}
+
+.black {
+	background-color: black;
+	width: 50px;
+}
+
+table td:first-child {
+	width: 30px;
+}
+
+table td:last-child {
+	border-right: 0px;
+}
+
+table tr:nth-child(2),
+table tr:nth-child(3) {
+	height: 60px;
+}
+
+table tr:nth-child(1),
+table tr:nth-child(7) {
+	height: 30px;
+}
+
+table tr:nth-child(4),
+table tr:nth-child(5) {
+	height: 30px;
+}

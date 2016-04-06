@@ -43,7 +43,7 @@ header {
 
 .phone_n {
 	float: left;
-	margin-left: 5px;
+	margin-left: 4px;
 	margin-top: 11px;
 	font-family: Arial; 
 	font-size: 18px;
@@ -53,7 +53,7 @@ header {
 
 .avtoriz	{
 	float: left;
-	margin-left: 14px; 
+	margin-left: 15px; 
 	margin-top: 4px;
 	width: 495px;
 	height: 26px;
@@ -84,15 +84,78 @@ header {
 	margin-left: 4px;
 }
 
+
 .avtoriz_form input {
-	height: 14px;
+	height: 13px;
 	width: 107px;
 	padding: 0px;
 	margin: 0px;
 	font-size: 10px;
-	padding-left: 2px;
+	padding-left: 3px;
 	font-family: "Lucida Sans Unicode";
-	letter-spacing: 0.5px;
+	letter-spacing: 0.3px;
+	margin-right: 3px;
+}
+
+.avtoriz_enter ul li {
+	float: left;
+	margin-left: 4px;
+}
+
+.avtoriz_enter ul li a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 10.5px;
+	font-family: "Lucida Sans Unicode";
+	line-height: 26px;
+	letter-spacing: 0.04px;
+}
+
+.avtoriz_enter ul li img {
+	text-align: center;
+	margin-top: 8px;
+}
+
+.avtoriz_enter ul li:last-child {
+	margin-left: 22px;
+}
+
+.avtoriz_enter ul li:last-child a {
+	font-family: "Lucida Sans Unicode";
+	font-size: 11px;
+	letter-spacing: 0.6px;
+	color: #bfbfbf;
+	text-decoration: underline;
+}
+
+.nav_top {
+	float: left;
+	margin-left: 16px;
+	margin-top: 6px;
+	border: 1px solid #bdc4c7;
+	width: 75px;
+	height: 19px;
+	border-radius: 10px;
+	-webkit-box-shadow: 1px 1px 4px 0px rgba(189,196,199,1);
+	-moz-box-shadow: 1px 1px 4px 0px rgba(189,196,199,1);
+	box-shadow: 1px 1px 4px 0px rgba(189,196,199,1);
+}
+
+.nav_top li {
+	float: left;
+	padding-left: 8px;
+}
+
+.nav_top ul li:first-child {
+	padding-left: 10px;
+}
+
+.nav_top ul li:last-child {
+	padding-left: 9px;
+}
+
+.fon_logo img {	
+	margin-top: 9px;
 }
 
 

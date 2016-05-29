@@ -158,9 +158,150 @@ header {
 	margin-top: 9px;
 }
 
+/*HEADMENU*/
+
+.menu {
+	position: relative;
+	margin-top: 3px;
+	height: 32px;
+	border: 1px solid #0a1235;
+	border-radius: 4px;
+	background-color: background: rgba(143,141,143,1);
+	background: -moz-linear-gradient(top, rgba(143,141,143,1) 0%, rgba(54,65,74,1) 4%, rgba(70,77,88,1) 5%, rgba(0,0,0,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(143,141,143,1)), color-stop(4%, rgba(54,65,74,1)), color-stop(5%, rgba(70,77,88,1)), color-stop(100%, rgba(0,0,0,1)));
+	background: -webkit-linear-gradient(top, rgba(143,141,143,1) 0%, rgba(54,65,74,1) 4%, rgba(70,77,88,1) 5%, rgba(0,0,0,1) 100%);
+	background: -o-linear-gradient(top, rgba(143,141,143,1) 0%, rgba(54,65,74,1) 4%, rgba(70,77,88,1) 5%, rgba(0,0,0,1) 100%);
+	background: -ms-linear-gradient(top, rgba(143,141,143,1) 0%, rgba(54,65,74,1) 4%, rgba(70,77,88,1) 5%, rgba(0,0,0,1) 100%);
+	background: linear-gradient(to bottom, rgba(143,141,143,1) 0%, rgba(54,65,74,1) 4%, rgba(70,77,88,1) 5%, rgba(0,0,0,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8f8d8f', endColorstr='#000000', GradientType=0 );
+	box-shadow: -webkit-box-shadow: 1px 2px 3px 1px rgba(0,0,0,0.75);
+	-moz-box-shadow: 1px 2px 3px 1px rgba(0,0,0,0.75);
+	box-shadow: 1px 2px 3px 1px rgba(0,0,0,0.75);
+}
+
+.headMenu {
+	float: left;
+	padding-top: 8px;
+	padding-left: 131px; 
+}
+
+.headMenu a {
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	color: #b1bcc0;
+	font-family: "Lucida Sans Unicode";
+	font-size: 13.6px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.headMenu a:hover {
+	color: white;
+	border-bottom: 1px solid #092036;
+	border-radius: 20px;
+	background-color: background: rgba(37,97,123,1);
+	background: -moz-linear-gradient(top, rgba(37,97,123,1) 0%, rgba(37,97,123,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(37,97,123,1)), color-stop(100%, rgba(37,97,123,1)));
+	background: -webkit-linear-gradient(top, rgba(37,97,123,1) 0%, rgba(37,97,123,1) 100%);
+	background: -o-linear-gradient(top, rgba(37,97,123,1) 0%, rgba(37,97,123,1) 100%);
+	background: -ms-linear-gradient(top, rgba(37,97,123,1) 0%, rgba(37,97,123,1) 100%);
+	background: linear-gradient(to bottom, rgba(37,97,123,1) 0%, rgba(37,97,123,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#25617b', endColorstr='#25617b', GradientType=0 );
+}
+
+.headMenu .payment {
+	padding-left: 16px;
+	padding-right: 11px;
+}
+
+.headMenu .articles {
+	padding-left: 12px;
+	padding-right: 7px;
+}
+.basket {
+	float: right;
+	font-size: 11px;
+	padding-top: 1px;
+	color: #8a9296;
+	font-family: Arial;
+}
+
+.basket p {
+	letter-spacing: 1px;
+}
+
+.basket .blue1 {
+	padding-right: 10px;
+	padding-left: 10px;
+	color: #0d5a8f;
+	font-size: 12px;
+	letter-spacing: 0.4px;
+}
+.basket .amount {
+	letter-spacing: 0.3px;
+	font-size: 11px;
+}
+.basket .blue {
+	padding-right: 14px;
+	padding-left: 1px;
+	color: #0d5a8f;
+	font-size: 12px;
+	}
+
+.tovar {
+	font-size: 11px;
+	letter-spacing: 0.34px;
+}
+
+.imgBasket {
+	padding-right: 8px;
+}
+/*/HEADMENU*/
+/* /HEADER*/
+
+/*inputBlock*/
+.inputBlock {
+	position: relative;
+	margin-top: 10px;
+	padding-left: 4px;
+}
+
+.inputLeft {
+	float: left;
+	width: 413px;
+	height: 132px;
+	margin-top: 2px;
+	border: 1px solid #b0b0b1;
+	border-radius: 19px;
+	-webkit-box-shadow: 1px 2px 3px 1px rgba(153,153,153,1);
+	-moz-box-shadow: 1px 2px 3px 1px rgba(153,153,153,1);
+	box-shadow: 1px 2px 3px 1px rgba(153,153,153,1);
+}
+
+.inputRight {
+	float: right;
+	width: 266px;
+	height: 134px;
+	margin-right: 5px;
+	border: 1px solid #b0b0b1;
+	border-radius: 19px;
+	-webkit-box-shadow: 1px 2px 3px 1px rgba(153,153,153,1);
+	-moz-box-shadow: 1px 2px 3px 1px rgba(153,153,153,1);
+	box-shadow: 1px 2px 3px 1px rgba(153,153,153,1);
+}
+
+.inputCenter {
+	float: left;
+	width: 191px;
+	height: 135px;
+	margin-left: 14px;
+	border: 1px solid #b0b0b1;
+	border-radius: 19px;
+	-webkit-box-shadow: 1px 2px 3px 1px rgba(153,153,153,1);
+	-moz-box-shadow: 1px 2px 3px 1px rgba(153,153,153,1);
+	box-shadow: 1px 2px 3px 1px rgba(153,153,153,1);
+}
 
 
-
-
-
-/*HEADER*/
+/* /inputBlock*/

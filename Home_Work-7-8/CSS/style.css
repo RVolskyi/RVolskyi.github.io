@@ -1,21 +1,37 @@
 @font-face {
     font-family: 'league_gothicregular';
-    src: url('leaguegothic-regular-webfont.eot');
-    src: url('leaguegothic-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('leaguegothic-regular-webfont.woff2') format('woff2'),
-         url('leaguegothic-regular-webfont.woff') format('woff'),
-         url('leaguegothic-regular-webfont.ttf') format('truetype'),
-         url('leaguegothic-regular-webfont.svg#league_gothicregular') format('svg');
+    src: url('../Fons/leaguegothic-regular-webfont.eot');
+    src: url('../Fons/leaguegothic-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../Fons/leaguegothic-regular-webfont.woff2') format('woff2'),
+         url('../Fons/leaguegothic-regular-webfont.woff') format('woff'),
+         url('../Fons/leaguegothic-regular-webfont.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 
 }
 
-body { 
-color: red;
-font-family: "league_gothicregular";
-
-
+html {
+font-family: "league_gothicregular", OpenSans, Arial, sans-serif;
 }
 
+.wrap {
+    height: 2525px;
+    width:2400px;
+}
+/*@media (max-width: 480px) {*/
+    
 
+    .headSection {
+        background-image:url(../Img/headSectionnImg.jpg);
+        background-repeat: no-repeat;
+        background-position: center top;
+        height: 20.43564%;
+        border-bottom:1px solid #34263b;
+    }
+    .headSection_headerName {
+        margin-left: auto;
+        margin-right: auto;
+        width:320px;
+    }
+
+}

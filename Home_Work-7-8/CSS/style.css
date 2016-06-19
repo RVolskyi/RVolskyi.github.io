@@ -18,20 +18,59 @@ font-family: "league_gothicregular", OpenSans, Arial, sans-serif;
     height: 2525px;
     width:2400px;
 }
-/*@media (max-width: 480px) {*/
+/*@media screen (max-width: 480px) {*/
     
 
-    .headSection {
+    .head--Section {
         background-image:url(../Img/headSectionnImg.jpg);
         background-repeat: no-repeat;
-        background-position: center top;
+        background-position: center;
+        background-position: top;
         height: 20.43564%;
         border-bottom:1px solid #34263b;
     }
-    .headSection_headerName {
-        margin-left: auto;
-        margin-right: auto;
+
+    .head--Section--headContent {
+        position: relative;
+        margin: 0 auto;
         width:320px;
+        padding-top: 65px;
+        text-align:center;
+    }
+
+    .head--Section--header--Name {
+        color: #ffffff;
+        text-transform: uppercase;
+        font-size: 3em;
+        text-shadow: 0px 2px 0px rgba(150, 150, 150, 0.5);
+        font-family: "league_gothicregular";
+    }
+
+    .header--Name_last2Litres {
+        font-family: "league_gothicregular";
+        color: #51395b;
+    }
+    .menu ul li {
+        position: absolute;
+        display: block;
+        width: 246px;
+        line-height: 48px;
+    }
+
+    .head--Section--menu {
+        margin-top:32px;
+        padding-bottom:8px;
+        text-transform: uppercase;
+        font-size: 1.5em;
+    }
+
+    .menu--a {
+        text-decoration: none;
+        display: block;
+        margin:0 auto;
+        width:47px;
+        border-bottom:2px solid #edbfff;
+        color: #ffffff;
     }
 
 }

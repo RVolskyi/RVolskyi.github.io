@@ -49,9 +49,10 @@
         position: relative;
         margin: 0 auto;
         text-align:center;
-        width:244px;
+        width:245px;
         padding-top:14px;
-        border-radius: 10px 10px 0 0;
+        border-radius: 8px 8px 0 0;
+        box-sizing: border-box;
     }
 
     .header-list a {
@@ -74,14 +75,17 @@
         position: absolute;
         top: 100%;
         width:244px;
-        border-radius: 0 0 10px 10px;
+        border-radius: 0 0 8px 8px;
+        border-left:1px solid #131d23;
+        border-right:1px solid #131d23;
+        border-bottom:1px solid #131d23;
         display: none;
+        box-sizing: border-box;
     }
 
     .header--li {
         line-height:45px;
-        border-top:1px solid #45384b;
-        border-bottom:2px solid #36283e;
+        border-top:2px solid #45384b;
     }
 
     .header--li:hover {
@@ -91,12 +95,13 @@
 
     .header-list:hover {
         background-color: rgba(69,56,75,.8);
-        border-top:1px solid #45384b;
-        border-bottom:1px solid #36283e;
+        border-left:1px solid #131d23;
+        border-right:1px solid #131d23;
+        border-top:1px solid #131d23;
     }
 
    .header-list:hover .header--dropdown {
-        display: block;
+       display: block;
        background-color: rgba(69,56,75,.8);
    }
 

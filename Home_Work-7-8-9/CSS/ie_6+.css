@@ -42,77 +42,70 @@
 
         /******HEAD NAV*****/
 
-    .header-list {
-        position: relative;
-        margin: 0 auto;
-        text-align:center;
-        width:244px;
-        padding-top:7px;
-        border-radius: 8px 8px 0 0;
-    }
+        .header--menu__320 {
+            margin:0 auto;
+            width: 45px;
 
-    .header-list a {
-        text-decoration: none;
-        color: #ffffff;
-        text-transform: uppercase;
-        font-size: 1.5em;
-    }
+        }
 
-    .header-list:first-child {
-        padding-bottom:14px;
-    }
+        .header--nav {
+            position: relative;
+            display: block;
+        }
 
-    .list--first  {
-        border-bottom:2px solid #edbfff;
-    }
+        .header--nav a{
+            display: block;
+            color: #ffffff;
+            text-transform: uppercase;
+            text-decoration: none;
+            border-bottom:2px solid #edbfff;
+            line-height:38px;
+            text-align: center;
+            font-size: 24px;
+        }
 
-    .header--dropdown {
-        position: absolute;
-        top: 100%;
-        width:244px;
-        border-radius: 0 0 8px 8px;
-        border-left:1px solid #131d23;
-        border-right:1px solid #131d23;
-        border-bottom:1px solid #131d23;
-        display: none;
-        box-sizing: border-box;
-    }
 
-    .header--li {
-        line-height:45px;
-        border-top:2px solid #45384b;
-    }
+        .header--submenu {
+            position: absolute;
+            display: none;
+            border-radius: 0 0 9px 9px;
+        }
 
-    .header--li:hover {
-       border-bottom:2px solid #edbfff;
-       background-color: rgba(69,56,75,.9);
-    }
+        .header--submenu a {
+            border-bottom:2px solid #23162a;
+        }
 
-    .header-list:hover {
-        background-color: rgba(69,56,75,.8);
-        border-left:1px solid #131d23;
-        border-right:1px solid #131d23;
-        border-top:1px solid #131d23;
-    }
+        .header--nav .header--submenu .nav--last {
+            border-bottom: none;
+        }
 
-   .header-list:hover .header--dropdown {
-       display: block;
-       background-color: rgba(69,56,75,.8);
-   }
+        .header--nav:hover .header--submenu {
+            display: block;
+            width:220px;
+            background: rgba(43, 34,49, .89);
+            margin-left: -88px;
+            transition: 0.2s;
+        }
+        .header--submenu a:hover{
+            border-bottom: 2px solid #edbfff;
+            background: rgba(43, 34,49, .9);
+        }
 
-    .header--a {
-        width: 244px;
-        text-decoration: none;
-        color: #ffffff;
-        text-transform: uppercase;
-        font-size: 1.5em;
-    }
+        .header--nav:hover .nav--first {
+            border-bottom: 2px solid #edbfff;
+            border-radius: 9px 9px 0 0;
+            width:220px;
+            background: rgba(43, 34,49, .85);
+            margin-left: -88px;
+        }
 
-    .header--menu__768 {
-        display: none;
-    }
+        .header--menu__768 {
+            display: none;
+        }
 
-    .carousel--height {
+        /*COURUSEL*/
+
+        .carousel--height {
         margin-top: 113px;
         font-size: 2.25em;
         text-align: center;
@@ -477,75 +470,69 @@
 
         /******HEAD NAV*****/
 
-        .header-list {
+        .header--menu__320 {
+            margin:0 auto;
+            width: 45px;
+
+        }
+
+        .header--nav {
             position: relative;
-            margin: 0 auto;
-            text-align:center;
-            width:244px;
-            padding-top:7px;
-            border-radius: 8px 8px 0 0;
-        }
-
-        .header-list a {
-            text-decoration: none;
-            color: #ffffff;
-            text-transform: uppercase;
-            font-size: 1.5em;
-        }
-
-        .header-list:first-child {
-            padding-bottom:14px;
-        }
-
-        .list--first  {
-            border-bottom:2px solid #edbfff;
-        }
-
-        .header--dropdown {
-            position: absolute;
-            top: 100%;
-            width:244px;
-            border-radius: 0 0 8px 8px;
-            border-left:1px solid #131d23;
-            border-right:1px solid #131d23;
-            border-bottom:1px solid #131d23;
-            display: none;
-            box-sizing: border-box;
-        }
-
-        .header--li {
-            line-height:45px;
-            border-top:2px solid #45384b;
-        }
-
-        .header--li:hover {
-            border-bottom:2px solid #edbfff;
-            background-color: rgba(69,56,75,.9);
-        }
-
-        .header-list:hover {
-            background-color: rgba(69,56,75,.8);
-            border-left:1px solid #131d23;
-            border-right:1px solid #131d23;
-            border-top:1px solid #131d23;
-        }
-
-        .header-list:hover .header--dropdown {
             display: block;
-            background-color: rgba(69,56,75,.8);
         }
 
-        .header--a {
-            width: 244px;
-            text-decoration: none;
+        .header--nav a{
+            display: block;
             color: #ffffff;
             text-transform: uppercase;
-            font-size: 1.5em;
+            text-decoration: none;
+            border-bottom:2px solid #edbfff;
+            line-height:38px;
+            text-align: center;
+            font-size: 24px;
         }
+
+
+        .header--submenu {
+            position: absolute;
+            display: none;
+            border-radius: 0 0 9px 9px;
+        }
+
+        .header--submenu a {
+            border-bottom:2px solid #23162a;
+        }
+
+        .header--nav .header--submenu .nav--last {
+            border-bottom: none;
+        }
+
+        .header--nav:hover .header--submenu {
+            display: block;
+            width:220px;
+            background: rgba(43, 34,49, .89);
+            margin-left: -88px;
+            transition: 0.2s;
+        }
+        .header--submenu a:hover{
+            border-bottom: 2px solid #edbfff;
+            background: rgba(43, 34,49, .9);
+        }
+
+        .header--nav:hover .nav--first {
+            border-bottom: 2px solid #edbfff;
+            border-radius: 9px 9px 0 0;
+            width:220px;
+            background: rgba(43, 34,49, .85);
+            margin-left: -88px;
+        }
+
+
 
         .header--menu__768 {
             display: none;
         }
+
 
         /*CAROUSEL*/
 
@@ -1019,7 +1006,7 @@
 
         /** * * * * HEAD NAV * * * **/
 
-        .header--menu__320-480 {
+        .header--menu__320 {
             display: none;
         }
 
@@ -1592,7 +1579,7 @@
 
         /*!** * * * * HEAD NAV * * * **!*/
 
-        .header--menu__320-480 {
+        .header--menu__320 {
             display: none;
 
         }
